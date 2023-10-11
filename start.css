@@ -46,5 +46,9 @@
 }
 
 .registration-from button:hover {
-    color: darkgrey;
+    color: darkgray;
+}
+
+h1 {
+color: black;
 }
