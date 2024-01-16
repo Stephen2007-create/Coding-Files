@@ -43,3 +43,14 @@ let greet = function(name) {
 
 cl(greet("Bob"));
 
+let StephensArray = [];
+for (let i = 0; i <= 500; i++) {
+    StephensArray.push(i);  
+}
+let sum = 0
+for (let i = 0; i < StephensArray.length; i++) {
+    sum += StephensArray[i];
+}
+console.log("The sum of the values in StephensArray is:", sum);
+
+let d = new Date();
